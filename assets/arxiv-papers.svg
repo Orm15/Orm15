@@ -111,27 +111,27 @@
     </div>
     <div class="cards">
 <!-- PAPERS -->
-      <div class="card">
-        <div class="card-top">
-          <span class="badge badge-lg">cs.LG</span>
-          <span class="card-title">Scaling Laws for Neural Language Models: A Comprehensive Survey</span>
-        </div>
-        <div class="card-meta">Kaplan, J. et al. &#183; arxiv.org/abs/cs.LG</div>
+    <div class="card" style="animation-delay:0.1s, 0.1s;">
+      <div class="card-top">
+        <span class="badge badge-ai">cs.AI</span>
+        <span class="card-title">RoboLayout: Differentiable 3D Scene Generation for Embodied Agents</span>
       </div>
-      <div class="card">
-        <div class="card-top">
-          <span class="badge badge-ai">cs.AI</span>
-          <span class="card-title">Constitutional AI: Harmlessness from AI Feedback and RLHF Alignment</span>
-        </div>
-        <div class="card-meta">Bai, Y. et al. &#183; arxiv.org/abs/cs.AI</div>
+      <div class="card-meta">arxiv.org &#183; March 09, 2026</div>
+    </div>
+    <div class="card" style="animation-delay:0.25s, 0.25s;">
+      <div class="card-top">
+        <span class="badge badge-ai">cs.AI</span>
+        <span class="card-title">Real-Time AI Service Economy: A Framework for Agentic Computing Across the Continuum</span>
       </div>
-      <div class="card">
-        <div class="card-top">
-          <span class="badge badge-cv">cs.CV</span>
-          <span class="card-title">Efficient Vision Transformers: A Survey on Attention Mechanism Compression</span>
-        </div>
-        <div class="card-meta">Liu, Z. et al. &#183; arxiv.org/abs/cs.CV</div>
+      <div class="card-meta">arxiv.org &#183; March 09, 2026</div>
+    </div>
+    <div class="card" style="animation-delay:0.4s, 0.4s;">
+      <div class="card-top">
+        <span class="badge badge-ai">cs.AI</span>
+        <span class="card-title">Reasoning Models Struggle to Control their Chains of Thought</span>
       </div>
+      <div class="card-meta">arxiv.org &#183; March 09, 2026</div>
+    </div>
 <!-- /PAPERS -->
     </div>
   </div>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 178" width="860" height="178">
+<defs>
+  <pattern id="dotgrid" x="0" y="0" width="22" height="22" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="0.9" fill="#00fff9" opacity="0.07"/>
+  </pattern>
+  <filter id="nameglow" x="-10%" y="-40%" width="120%" height="180%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%"   stop-color="#00fff9"/>
+    <stop offset="50%"  stop-color="#ffffff"/>
+    <stop offset="100%" stop-color="#bc8cff"/>
+  </linearGradient>
+  <style>
+    @keyframes slideGrad {
+      from { background-position: -860px 0; }
+      to   { background-position: 860px 0; }
+    }
+    @keyframes slideGradRev {
+      from { background-position: 860px 0; }
+      to   { background-position: -860px 0; }
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes badgePop {
+      0%   { opacity: 0; transform: scale(0.85); }
+      80%  { transform: scale(1.04); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+    @keyframes pulseGlow {
+      0%,100% { text-shadow: 0 0 12px rgba(0,255,249,0.5); }
+      50%     { text-shadow: 0 0 24px rgba(0,255,249,0.9), 0 0 40px rgba(0,255,249,0.3); }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    .wrap {
+      background: #0d1117;
+      height: 178px;
+      overflow: hidden;
+      font-family: -apple-system, 'Segoe UI', Helvetica, sans-serif;
+      position: relative;
+    }
+    .top-line {
+      height: 2px;
+      background: linear-gradient(90deg,
+        transparent 0%,
+        #00fff9 20%, #00ff88 40%,
+        #bc8cff 60%, #00fff9 80%,
+        transparent 100%);
+      background-size: 860px 2px;
+      animation: slideGrad 3.5s linear infinite;
+    }
+    .bottom-line {
+      height: 2px;
+      background: linear-gradient(90deg,
+        transparent 0%,
+        #bc8cff 20%, #00fff9 40%,
+        #00ff88 60%, #bc8cff 80%,
+        transparent 100%);
+      background-size: 860px 2px;
+      animation: slideGradRev 3.5s linear infinite;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 24px 12px;
+      gap: 0;
+      animation: fadeUp 0.7s ease-out 0.1s both;
+    }
+    .label {
+      font-family: 'Courier New', monospace;
+      font-size: 9px;
+      color: #005555;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .name {
+      font-size: 30px;
+      font-weight: 700;
+      background: linear-gradient(90deg, #00fff9 0%, #e6edf3 50%, #bc8cff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: 0.5px;
+      margin-bottom: 7px;
+      animation: pulseGlow 3s ease-in-out infinite;
+    }
+    .role {
+      font-size: 14px;
+      font-weight: 500;
+      color: #c9d1d9;
+      letter-spacing: 0.2px;
+      margin-bottom: 3px;
+    }
+    .specialty {
+      font-size: 12px;
+      color: #7d8590;
+      margin-bottom: 14px;
+      letter-spacing: 0.3px;
+    }
+    .spec-accent {
+      color: #388bfd;
+    }
+    .badges {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .badge {
+      font-family: 'Courier New', monospace;
+      font-size: 11px;
+      padding: 4px 12px;
+      border-radius: 20px;
+      background: #161b22;
+      border: 1px solid #30363d;
+      color: #c9d1d9;
+      animation: badgePop 0.5s ease-out both;
+    }
+    .badge:nth-child(1) { animation-delay: 0.4s; border-color: #1f6128; color: #3fb950; background: #0d2d0d; }
+    .badge:nth-child(2) { animation-delay: 0.55s; }
+    .badge:nth-child(3) { animation-delay: 0.70s; border-color: #1c3a5c; color: #58a6ff; background: #0d1a2d; }
+  </style>
+</defs>
+
+<!-- Fondo oscuro + dot grid -->
+<rect width="860" height="178" fill="#0d1117"/>
+<rect width="860" height="178" fill="url(#dotgrid)"/>
+
+<!-- Líneas decorativas laterales sutiles -->
+<line x1="30" y1="20" x2="30" y2="158" stroke="#1a5c5c" stroke-width="0.5" opacity="0.4"/>
+<line x1="830" y1="20" x2="830" y2="158" stroke="#1a5c5c" stroke-width="0.5" opacity="0.4"/>
+<circle cx="30"  cy="20"  r="2" fill="#00fff9" opacity="0.3"/>
+<circle cx="30"  cy="158" r="2" fill="#00fff9" opacity="0.3"/>
+<circle cx="830" cy="20"  r="2" fill="#00fff9" opacity="0.3"/>
+<circle cx="830" cy="158" r="2" fill="#00fff9" opacity="0.3"/>
+
+<!-- Contenido via foreignObject -->
+<foreignObject x="0" y="0" width="860" height="178">
+  <div xmlns="http://www.w3.org/1999/xhtml" class="wrap">
+    <div class="top-line"/>
+    <div class="content">
+      <div class="label">&#11835; Mi Perfil &#11835;</div>
+      <div class="name">Victor Orme&#241;o</div>
+      <div class="role">Arquitecto e Ingeniero de Software</div>
+      <div class="specialty">
+        <span class="spec-accent">IA Generativa</span>
+        &#160;&#183;&#160;
+        <span class="spec-accent">Machine Learning</span>
+      </div>
+      <div class="badges">
+        <span class="badge">&#127874; <!-- AGE -->22<!-- /AGE --> a&#241;os</span>
+        <span class="badge">&#128197; 15 / 04 / 2003</span>
+        <span class="badge">&#128205; Lima, Per&#250;</span>
+      </div>
+    </div>
+    <div class="bottom-line"/>
+  </div>
+</foreignObject>
+</svg>

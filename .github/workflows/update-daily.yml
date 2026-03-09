@@ -22,6 +22,31 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      - name: Update age in header
+        run: |
+          python3 << 'EOF'
+          import re
+          from datetime import date
+
+          birth = date(2003, 4, 15)
+          today = date.today()
+          age   = today.year - birth.year - ((today.month, today.day) < (birth.month, birth.day))
+
+          with open('assets/header.svg', 'r', encoding='utf-8') as f:
+              svg = f.read()
+
+          svg = re.sub(
+              r'<!-- AGE -->\d+<!-- /AGE -->',
+              f'<!-- AGE -->{age}<!-- /AGE -->',
+              svg
+          )
+
+          with open('assets/header.svg', 'w', encoding='utf-8') as f:
+              f.write(svg)
+
+          print(f"Updated age: {age} años")
+          EOF
+
       - name: Update terminal quote (ZenQuotes)
         run: |
           python3 << 'EOF'
@@ -146,7 +171,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/terminal-quote.svg assets/arxiv-papers.svg
+          git add assets/header.svg assets/terminal-quote.svg assets/arxiv-papers.svg
           git diff --staged --quiet || git commit -m "chore: daily update $(date +'%Y-%m-%d')"
           git push
         env:

@@ -26,6 +26,7 @@
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![DAX](https://img.shields.io/badge/DAX-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 
 **🤖 IA y Machine Learning**
 
@@ -103,6 +104,8 @@
 `Procesamiento inteligente de documentos`
 
 `Análisis y diseño de algoritmos`
+
+`Complejidad algorítmica (Big O, estructuras de datos, optimización)`
 
 </td>
 </tr>

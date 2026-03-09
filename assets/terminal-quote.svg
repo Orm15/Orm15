@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 200" width="860" height="200">
+<defs>
+  <style>
+    @keyframes typing {
+      from { width: 0ch; }
+      to   { width: 71ch; }
+    }
+    @keyframes blink {
+      from, to { border-right-color: transparent; }
+      50%      { border-right-color: #00ff88; }
+    }
+    @keyframes fadeInTerminal {
+      from { opacity: 0; transform: translateY(-4px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes authorFade {
+      from { opacity: 0; }
+      to   { opacity: 0.6; }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    .terminal-wrap {
+      font-family: 'Courier New', Courier, monospace;
+      background: #0d1117;
+      border-radius: 10px;
+      overflow: hidden;
+      animation: fadeInTerminal 0.6s ease-out forwards;
+    }
+    .title-bar {
+      background: #1e1e1e;
+      padding: 9px 14px;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+    .dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+    .dot-r { background: #ff5f57; }
+    .dot-y { background: #febc2e; }
+    .dot-g { background: #28c840; }
+    .title-text {
+      font-size: 12px;
+      color: #888;
+      margin-left: 8px;
+      letter-spacing: 0.5px;
+    }
+    .body {
+      padding: 14px 18px 16px;
+      background: #0d1117;
+    }
+    .prompt-line1 {
+      font-size: 13px;
+      color: #00ff88;
+      line-height: 1.5;
+    }
+    .prompt-line2 {
+      font-size: 13px;
+      color: #00ff88;
+      line-height: 1.5;
+      margin-bottom: 4px;
+    }
+    .typing-container {
+      display: inline-flex;
+      align-items: baseline;
+    }
+    .typing-text {
+      overflow: hidden;
+      white-space: nowrap;
+      width: 0ch;
+      font-size: 13px;
+      color: #e0e0e0;
+      border-right: 2px solid #00ff88;
+      animation:
+        typing 4.2s steps(71) 1.0s forwards,
+        blink  0.8s step-end   1.0s infinite;
+    }
+    .author-line {
+      font-size: 11px;
+      color: #888;
+      margin-top: 6px;
+      opacity: 0;
+      animation: authorFade 0.5s ease-in 5.5s forwards;
+    }
+  </style>
+</defs>
+
+<!-- Window background -->
+<rect width="860" height="200" rx="10" fill="#0d1117"/>
+<!-- Title bar background -->
+<rect width="860" height="36" rx="10" fill="#1e1e1e"/>
+<rect y="18" width="860" height="18" fill="#1e1e1e"/>
+
+<!-- Traffic light dots -->
+<circle cx="28"  cy="18" r="6" fill="#ff5f57"/>
+<circle cx="48"  cy="18" r="6" fill="#febc2e"/>
+<circle cx="68"  cy="18" r="6" fill="#28c840"/>
+
+<!-- Window title text -->
+<text x="430" y="23" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" fill="#888">vctr@dev &#8212; zsh</text>
+
+<!-- Terminal content via foreignObject -->
+<foreignObject x="0" y="36" width="860" height="164">
+  <div xmlns="http://www.w3.org/1999/xhtml" style="padding:12px 18px 14px; background:#0d1117; height:100%;">
+    <div style="font-family:'Courier New',monospace; font-size:13px; color:#00ff88; line-height:1.5;">&#9484;&#8211;[vctr@dev]&#8211;[~]</div>
+    <div style="font-family:'Courier New',monospace; font-size:13px; color:#00ff88; line-height:1.5; margin-bottom:4px;">&#9492;&#8211;$ <span style="display:inline-block; overflow:hidden; white-space:nowrap; width:0ch; font-size:13px; color:#e0e0e0; border-right:2px solid #00ff88; animation: typing 4.2s steps(71) 1.0s forwards, blink 0.8s step-end 1.0s infinite;"><!-- QUOTE_TEXT -->The best time to plant a tree was 20 years ago. The second best is now.<!-- /QUOTE_TEXT --></span></div>
+    <div style="font-family:'Courier New',monospace; font-size:11px; color:#666; margin-top:6px; opacity:0; animation: authorFade 0.5s ease-in 5.5s forwards;"><!-- AUTHOR_TEXT -->&#8212; Chinese Proverb<!-- /AUTHOR_TEXT --></div>
+  </div>
+</foreignObject>
+</svg>

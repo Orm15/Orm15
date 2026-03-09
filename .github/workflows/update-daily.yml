@@ -1,0 +1,153 @@
+name: Daily Profile Update
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # 7:00 AM UTC = 2:00 AM Lima (UTC-5)
+  workflow_dispatch:        # ejecutable manualmente desde GitHub UI
+
+permissions:
+  contents: write           # CRÍTICO: permite hacer push
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Update terminal quote (ZenQuotes)
+        run: |
+          python3 << 'EOF'
+          import requests, re, sys
+
+          try:
+              r = requests.get('https://zenquotes.io/api/random', timeout=10)
+              data = r.json()[0]
+              quote = data['q']
+              author = data['a']
+          except Exception as e:
+              print(f"ZenQuotes failed: {e}, using fallback")
+              quote = "The best time to plant a tree was 20 years ago. The second best is now."
+              author = "Chinese Proverb"
+
+          # Truncar si es muy larga para que entre en el typewriter
+          if len(quote) > 90:
+              quote = quote[:87] + "..."
+
+          char_count = len(quote)
+
+          with open('assets/terminal-quote.svg', 'r', encoding='utf-8') as f:
+              svg = f.read()
+
+          svg = re.sub(
+              r'<!-- QUOTE_TEXT -->.*?<!-- /QUOTE_TEXT -->',
+              f'<!-- QUOTE_TEXT -->{quote}<!-- /QUOTE_TEXT -->',
+              svg, flags=re.DOTALL
+          )
+          svg = re.sub(
+              r'<!-- AUTHOR_TEXT -->.*?<!-- /AUTHOR_TEXT -->',
+              f'<!-- AUTHOR_TEXT -->&#8212; {author}<!-- /AUTHOR_TEXT -->',
+              svg, flags=re.DOTALL
+          )
+          svg = re.sub(r'steps\(\d+\)', f'steps({char_count})', svg)
+          svg = re.sub(r'width:\s*\d+ch', f'width: {char_count}ch', svg)
+
+          with open('assets/terminal-quote.svg', 'w', encoding='utf-8') as f:
+              f.write(svg)
+
+          print(f"Updated quote ({char_count} chars): '{quote[:50]}...' by {author}")
+          EOF
+
+      - name: Update ArXiv papers
+        run: |
+          python3 << 'EOF'
+          import requests, xml.etree.ElementTree as ET, html, re
+          from datetime import datetime
+
+          FEED_URL = 'http://export.arxiv.org/rss/cs.AI'
+          CATEGORY_COLORS = {
+              'cs.AI': ('badge-ai',  'cs.AI'),
+              'cs.LG': ('badge-lg',  'cs.LG'),
+              'cs.CV': ('badge-cv',  'cs.CV'),
+              'cs.CL': ('badge-lg',  'cs.CL'),
+              'cs.NE': ('badge-ai',  'cs.NE'),
+          }
+
+          try:
+              r = requests.get(
+                  FEED_URL, timeout=15,
+                  headers={'User-Agent': 'Mozilla/5.0 (GitHub Actions)'}
+              )
+              root = ET.fromstring(r.content)
+              items = root.findall('.//item')[:3]
+
+              papers = []
+              for item in items:
+                  title = item.find('title').text or 'Untitled'
+                  title = html.unescape(title).strip()
+                  link  = item.find('link').text or 'https://arxiv.org/list/cs.AI/recent'
+                  title = re.sub(r'\[[\d.]+\]\s*', '', title)
+                  if len(title) > 85:
+                      title = title[:82] + '...'
+                  papers.append({'title': title, 'link': link, 'category': 'cs.AI'})
+
+          except Exception as e:
+              print(f"ArXiv failed: {e}, using fallback")
+              papers = [{
+                  'title': 'Could not fetch papers — will retry tomorrow',
+                  'link':  'https://arxiv.org/list/cs.AI/recent',
+                  'category': 'cs.AI'
+              }]
+
+          today = datetime.now().strftime('%B %d, %Y')
+
+          cards_html = ''
+          for i, p in enumerate(papers):
+              cat   = p['category']
+              badge_class, badge_label = CATEGORY_COLORS.get(cat, ('badge-ai', cat))
+              delay = 0.1 + i * 0.15
+              cards_html += f'''
+              <div class="card" style="animation-delay:{delay}s, {delay}s;">
+                <div class="card-top">
+                  <span class="badge {badge_class}">{badge_label}</span>
+                  <span class="card-title">{p["title"]}</span>
+                </div>
+                <div class="card-meta">arxiv.org &#183; {today}</div>
+              </div>'''
+
+          with open('assets/arxiv-papers.svg', 'r', encoding='utf-8') as f:
+              svg = f.read()
+
+          svg = re.sub(
+              r'<!-- DATE -->.*?<!-- /DATE -->',
+              f'<!-- DATE -->{today}<!-- /DATE -->',
+              svg, flags=re.DOTALL
+          )
+          svg = re.sub(
+              r'<!-- PAPERS -->.*?<!-- /PAPERS -->',
+              f'<!-- PAPERS -->{cards_html}\n<!-- /PAPERS -->',
+              svg, flags=re.DOTALL
+          )
+
+          with open('assets/arxiv-papers.svg', 'w', encoding='utf-8') as f:
+              f.write(svg)
+
+          print(f"Updated {len(papers)} papers for {today}")
+          EOF
+
+      - name: Commit and push updates
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/terminal-quote.svg assets/arxiv-papers.svg
+          git diff --staged --quiet || git commit -m "chore: daily update $(date +'%Y-%m-%d')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

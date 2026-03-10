@@ -107,30 +107,30 @@
     <div class="header">
       <div class="header-line"/>
       <div class="header-title">&#129302; AI Papers Today</div>
-      <div class="header-date"><!-- DATE -->March 09, 2026<!-- /DATE --></div>
+      <div class="header-date"><!-- DATE -->March 10, 2026<!-- /DATE --></div>
     </div>
     <div class="cards">
 <!-- PAPERS -->
     <div class="card" style="animation-delay:0.1s, 0.1s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">RoboLayout: Differentiable 3D Scene Generation for Embodied Agents</span>
+        <span class="card-title">Autonomous AI Agents for Option Hedging: Enhancing Financial Stability through Sho...</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; March 09, 2026</div>
+      <div class="card-meta">arxiv.org &#183; March 10, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.25s, 0.25s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Real-Time AI Service Economy: A Framework for Agentic Computing Across the Continuum</span>
+        <span class="card-title">Scaling Strategy, Not Compute: A Stand-Alone, Open-Source StarCraft II Benchmark f...</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; March 09, 2026</div>
+      <div class="card-meta">arxiv.org &#183; March 10, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.4s, 0.4s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Reasoning Models Struggle to Control their Chains of Thought</span>
+        <span class="card-title">MultiGen: Level-Design for Editable Multiplayer Worlds in Diffusion Game Engines</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; March 09, 2026</div>
+      <div class="card-meta">arxiv.org &#183; March 10, 2026</div>
     </div>
 <!-- /PAPERS -->
     </div>

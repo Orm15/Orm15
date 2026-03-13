@@ -107,30 +107,30 @@
     <div class="header">
       <div class="header-line"/>
       <div class="header-title">&#129302; AI Papers Today</div>
-      <div class="header-date"><!-- DATE -->March 12, 2026<!-- /DATE --></div>
+      <div class="header-date"><!-- DATE -->March 13, 2026<!-- /DATE --></div>
     </div>
     <div class="cards">
 <!-- PAPERS -->
     <div class="card" style="animation-delay:0.1s, 0.1s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Agentic Control Center for Data Product Optimization</span>
+        <span class="card-title">DIVE: Scaling Diversity in Agentic Task Synthesis for Generalizable Tool Use</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; March 12, 2026</div>
+      <div class="card-meta">arxiv.org &#183; March 13, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.25s, 0.25s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Hybrid Self-evolving Structured Memory for GUI Agents</span>
+        <span class="card-title">A Survey of Reasoning in Autonomous Driving Systems: Open Challenges and Emerging ...</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; March 12, 2026</div>
+      <div class="card-meta">arxiv.org &#183; March 13, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.4s, 0.4s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">HEAL: Hindsight Entropy-Assisted Learning for Reasoning Distillation</span>
+        <span class="card-title">PACED: Distillation at the Frontier of Student Competence</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; March 12, 2026</div>
+      <div class="card-meta">arxiv.org &#183; March 13, 2026</div>
     </div>
 <!-- /PAPERS -->
     </div>

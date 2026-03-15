@@ -3,8 +3,8 @@
 <defs>
   <style>
     @keyframes typing {
-      from { width: 56ch; }
-      to   { width: 56ch; }
+      from { width: 69ch; }
+      to   { width: 69ch; }
     }
     @keyframes blink {
       from, to { border-right-color: transparent; }
@@ -65,12 +65,12 @@
     .typing-text {
       overflow: hidden;
       white-space: nowrap;
-      width: 56ch;
+      width: 69ch;
       font-size: 13px;
       color: #e0e0e0;
       border-right: 2px solid #00ff88;
       animation:
-        typing 4.2s steps(56) 1.0s forwards,
+        typing 4.2s steps(69) 1.0s forwards,
         blink  0.8s step-end   1.0s infinite;
     }
     .author-line {
@@ -101,8 +101,8 @@
 <foreignObject x="0" y="36" width="860" height="164">
   <div xmlns="http://www.w3.org/1999/xhtml" style="padding:12px 18px 14px; background:#0d1117; height:100%;">
     <div style="font-family:'Courier New',monospace; font-size:13px; color:#00ff88; line-height:1.5;">&#9484;&#8211;[vctr@dev]&#8211;[~]</div>
-    <div style="font-family:'Courier New',monospace; font-size:13px; color:#00ff88; line-height:1.5; margin-bottom:4px;">&#9492;&#8211;$ <span style="display:inline-block; overflow:hidden; white-space:nowrap; width: 56ch; font-size:13px; color:#e0e0e0; border-right:2px solid #00ff88; animation: typing 4.2s steps(56) 1.0s forwards, blink 0.8s step-end 1.0s infinite;"><!-- QUOTE_TEXT -->Don't be afraid to give up the good to go for the great.<!-- /QUOTE_TEXT --></span></div>
-    <div style="font-family:'Courier New',monospace; font-size:11px; color:#666; margin-top:6px; opacity:0; animation: authorFade 0.5s ease-in 5.5s forwards;"><!-- AUTHOR_TEXT -->&#8212; John D. Rockefeller<!-- /AUTHOR_TEXT --></div>
+    <div style="font-family:'Courier New',monospace; font-size:13px; color:#00ff88; line-height:1.5; margin-bottom:4px;">&#9492;&#8211;$ <span style="display:inline-block; overflow:hidden; white-space:nowrap; width: 69ch; font-size:13px; color:#e0e0e0; border-right:2px solid #00ff88; animation: typing 4.2s steps(69) 1.0s forwards, blink 0.8s step-end 1.0s infinite;"><!-- QUOTE_TEXT -->The older you get, the more you understand how your conscience works.<!-- /QUOTE_TEXT --></span></div>
+    <div style="font-family:'Courier New',monospace; font-size:11px; color:#666; margin-top:6px; opacity:0; animation: authorFade 0.5s ease-in 5.5s forwards;"><!-- AUTHOR_TEXT -->&#8212; Criss Jami<!-- /AUTHOR_TEXT --></div>
   </div>
 </foreignObject>
 </svg>

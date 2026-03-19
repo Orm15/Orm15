@@ -107,30 +107,30 @@
     <div class="header">
       <div class="header-line"/>
       <div class="header-title">&#129302; AI Papers Today</div>
-      <div class="header-date"><!-- DATE -->March 18, 2026<!-- /DATE --></div>
+      <div class="header-date"><!-- DATE -->March 19, 2026<!-- /DATE --></div>
     </div>
     <div class="cards">
 <!-- PAPERS -->
     <div class="card" style="animation-delay:0.1s, 0.1s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Neural-Symbolic Logic Query Answering in Non-Euclidean Space</span>
+        <span class="card-title">Generative AI-assisted Participatory Modeling in Socio-Environmental Planning unde...</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; March 18, 2026</div>
+      <div class="card-meta">arxiv.org &#183; March 19, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.25s, 0.25s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">NextMem: Towards Latent Factual Memory for LLM-based Agents</span>
+        <span class="card-title">Transformers are Bayesian Networks</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; March 18, 2026</div>
+      <div class="card-meta">arxiv.org &#183; March 19, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.4s, 0.4s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">AIDABench: AI Data Analytics Benchmark</span>
+        <span class="card-title">Cascade-Aware Multi-Agent Routing: Spatio-Temporal Sidecars and Geometry-Switching</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; March 18, 2026</div>
+      <div class="card-meta">arxiv.org &#183; March 19, 2026</div>
     </div>
 <!-- /PAPERS -->
     </div>

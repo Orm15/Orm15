@@ -107,30 +107,30 @@
     <div class="header">
       <div class="header-line"/>
       <div class="header-title">&#129302; AI Papers Today</div>
-      <div class="header-date"><!-- DATE -->March 23, 2026<!-- /DATE --></div>
+      <div class="header-date"><!-- DATE -->March 24, 2026<!-- /DATE --></div>
     </div>
     <div class="cards">
 <!-- PAPERS -->
     <div class="card" style="animation-delay:0.1s, 0.1s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">When both Grounding and not Grounding are Bad -- A Partially Grounded Encoding of ...</span>
+        <span class="card-title">AgenticGEO: A Self-Evolving Agentic System for Generative Engine Optimization</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; March 23, 2026</div>
+      <div class="card-meta">arxiv.org &#183; March 24, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.25s, 0.25s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Hyperagents</span>
+        <span class="card-title">ProMAS: Proactive Error Forecasting for Multi-Agent Systems Using Markov Transitio...</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; March 23, 2026</div>
+      <div class="card-meta">arxiv.org &#183; March 24, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.4s, 0.4s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Teaching an Agent to Sketch One Part at a Time</span>
+        <span class="card-title">Domain-Specialized Tree of Thought through Plug-and-Play Predictors</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; March 23, 2026</div>
+      <div class="card-meta">arxiv.org &#183; March 24, 2026</div>
     </div>
 <!-- /PAPERS -->
     </div>

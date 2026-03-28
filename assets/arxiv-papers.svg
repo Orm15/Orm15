@@ -107,31 +107,10 @@
     <div class="header">
       <div class="header-line"/>
       <div class="header-title">&#129302; AI Papers Today</div>
-      <div class="header-date"><!-- DATE -->March 27, 2026<!-- /DATE --></div>
+      <div class="header-date"><!-- DATE -->March 28, 2026<!-- /DATE --></div>
     </div>
     <div class="cards">
 <!-- PAPERS -->
-    <div class="card" style="animation-delay:0.1s, 0.1s;">
-      <div class="card-top">
-        <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">PLDR-LLMs Reason At Self-Organized Criticality</span>
-      </div>
-      <div class="card-meta">arxiv.org &#183; March 27, 2026</div>
-    </div>
-    <div class="card" style="animation-delay:0.25s, 0.25s;">
-      <div class="card-top">
-        <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Environment Maps: Structured Environmental Representations for Long-Horizon Agents</span>
-      </div>
-      <div class="card-meta">arxiv.org &#183; March 27, 2026</div>
-    </div>
-    <div class="card" style="animation-delay:0.4s, 0.4s;">
-      <div class="card-top">
-        <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Evaluating a Multi-Agent Voice-Enabled Smart Speaker for Care Homes: A Safety-Focu...</span>
-      </div>
-      <div class="card-meta">arxiv.org &#183; March 27, 2026</div>
-    </div>
 <!-- /PAPERS -->
     </div>
   </div>

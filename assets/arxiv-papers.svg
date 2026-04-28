@@ -107,30 +107,30 @@
     <div class="header">
       <div class="header-line"/>
       <div class="header-title">&#129302; AI Papers Today</div>
-      <div class="header-date"><!-- DATE -->April 27, 2026<!-- /DATE --></div>
+      <div class="header-date"><!-- DATE -->April 28, 2026<!-- /DATE --></div>
     </div>
     <div class="cards">
 <!-- PAPERS -->
     <div class="card" style="animation-delay:0.1s, 0.1s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Math Takes Two: A test for emergent mathematical reasoning in communication</span>
+        <span class="card-title">An Intelligent Fault Diagnosis Method for General Aviation Aircraft Based on Multi...</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; April 27, 2026</div>
+      <div class="card-meta">arxiv.org &#183; April 28, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.25s, 0.25s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">An Artifact-based Agent Framework for Adaptive and Reproducible Medical Image Proc...</span>
+        <span class="card-title">PExA: Parallel Exploration Agent for Complex Text-to-SQL</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; April 27, 2026</div>
+      <div class="card-meta">arxiv.org &#183; April 28, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.4s, 0.4s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">MolClaw: An Autonomous Agent with Hierarchical Skills for Drug Molecule Evaluation...</span>
+        <span class="card-title">The Power of Power Law: Asymmetry Enables Compositional Reasoning</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; April 27, 2026</div>
+      <div class="card-meta">arxiv.org &#183; April 28, 2026</div>
     </div>
 <!-- /PAPERS -->
     </div>

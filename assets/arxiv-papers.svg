@@ -107,30 +107,30 @@
     <div class="header">
       <div class="header-line"/>
       <div class="header-title">&#129302; AI Papers Today</div>
-      <div class="header-date"><!-- DATE -->April 30, 2026<!-- /DATE --></div>
+      <div class="header-date"><!-- DATE -->May 01, 2026<!-- /DATE --></div>
     </div>
     <div class="cards">
 <!-- PAPERS -->
     <div class="card" style="animation-delay:0.1s, 0.1s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital</span>
+        <span class="card-title">Compositional Meta-Learning for Mitigating Task Heterogeneity in Physics-Informed ...</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; April 30, 2026</div>
+      <div class="card-meta">arxiv.org &#183; May 01, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.25s, 0.25s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Distill-Belief: Closed-Loop Inverse Source Localization and Characterization in Ph...</span>
+        <span class="card-title">Binary Spiking Neural Networks as Causal Models</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; April 30, 2026</div>
+      <div class="card-meta">arxiv.org &#183; May 01, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.4s, 0.4s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Evaluating Strategic Reasoning in Forecasting Agents</span>
+        <span class="card-title">When Your LLM Reaches End-of-Life: A Framework for Confident Model Migration in Pr...</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; April 30, 2026</div>
+      <div class="card-meta">arxiv.org &#183; May 01, 2026</div>
     </div>
 <!-- /PAPERS -->
     </div>

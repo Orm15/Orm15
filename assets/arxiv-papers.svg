@@ -107,30 +107,30 @@
     <div class="header">
       <div class="header-line"/>
       <div class="header-title">&#129302; AI Papers Today</div>
-      <div class="header-date"><!-- DATE -->May 19, 2026<!-- /DATE --></div>
+      <div class="header-date"><!-- DATE -->May 20, 2026<!-- /DATE --></div>
     </div>
     <div class="cards">
 <!-- PAPERS -->
     <div class="card" style="animation-delay:0.1s, 0.1s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">AgentWall: A Runtime Safety Layer for Local AI Agents</span>
+        <span class="card-title">Position: Let's Develop Data Probes to Fundamentally Understand How Data Affects L...</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; May 19, 2026</div>
+      <div class="card-meta">arxiv.org &#183; May 20, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.25s, 0.25s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">ANNEAL: Adapting LLM Agents via Governed Symbolic Patch Learning</span>
+        <span class="card-title">Operationalizing Document AI: A Microservice Architecture for OCR and LLM Pipeline...</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; May 19, 2026</div>
+      <div class="card-meta">arxiv.org &#183; May 20, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.4s, 0.4s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">From Prompts to Protocols: An AI Agent for Laboratory Automation</span>
+        <span class="card-title">Evaluating the Utility of Personal Health Records in Personalized Health AI</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; May 19, 2026</div>
+      <div class="card-meta">arxiv.org &#183; May 20, 2026</div>
     </div>
 <!-- /PAPERS -->
     </div>

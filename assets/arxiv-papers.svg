@@ -107,30 +107,30 @@
     <div class="header">
       <div class="header-line"/>
       <div class="header-title">&#129302; AI Papers Today</div>
-      <div class="header-date"><!-- DATE -->July 07, 2026<!-- /DATE --></div>
+      <div class="header-date"><!-- DATE -->July 08, 2026<!-- /DATE --></div>
     </div>
     <div class="cards">
 <!-- PAPERS -->
     <div class="card" style="animation-delay:0.1s, 0.1s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">iFLYTEK-Embodied-Omni Technical Report</span>
+        <span class="card-title">Prompt-to-Paper: Agentic AI System for Bioinformatics</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; July 07, 2026</div>
+      <div class="card-meta">arxiv.org &#183; July 08, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.25s, 0.25s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Internal Pluralism and the Limits of Pairwise Comparisons</span>
+        <span class="card-title">From Graphs to Gradients: Physics-Inspired Structural Attribution for Cyber-Physic...</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; July 07, 2026</div>
+      <div class="card-meta">arxiv.org &#183; July 08, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.4s, 0.4s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">ASK in the Dark: Uncertainty-Gated LLM Assistance under Partial Observability</span>
+        <span class="card-title">CSTutorBench: Benchmarking Small Language Models as Tutors for Block-Based Program...</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; July 07, 2026</div>
+      <div class="card-meta">arxiv.org &#183; July 08, 2026</div>
     </div>
 <!-- /PAPERS -->
     </div>

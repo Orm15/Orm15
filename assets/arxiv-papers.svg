@@ -107,10 +107,31 @@
     <div class="header">
       <div class="header-line"/>
       <div class="header-title">&#129302; AI Papers Today</div>
-      <div class="header-date"><!-- DATE -->July 27, 2026<!-- /DATE --></div>
+      <div class="header-date"><!-- DATE -->July 28, 2026<!-- /DATE --></div>
     </div>
     <div class="cards">
 <!-- PAPERS -->
+    <div class="card" style="animation-delay:0.1s, 0.1s;">
+      <div class="card-top">
+        <span class="badge badge-ai">cs.AI</span>
+        <span class="card-title">Concept-based Visual Counterfactual Explanations with Diffusion Models</span>
+      </div>
+      <div class="card-meta">arxiv.org &#183; July 28, 2026</div>
+    </div>
+    <div class="card" style="animation-delay:0.25s, 0.25s;">
+      <div class="card-top">
+        <span class="badge badge-ai">cs.AI</span>
+        <span class="card-title">SeT-Diff: Towards Semantic Foundation Models for HPC Telemetry and Time-Series</span>
+      </div>
+      <div class="card-meta">arxiv.org &#183; July 28, 2026</div>
+    </div>
+    <div class="card" style="animation-delay:0.4s, 0.4s;">
+      <div class="card-top">
+        <span class="badge badge-ai">cs.AI</span>
+        <span class="card-title">QFoldAgent: An Autonomous Quantum Optimization Multi-Agent System for Protein Stru...</span>
+      </div>
+      <div class="card-meta">arxiv.org &#183; July 28, 2026</div>
+    </div>
 <!-- /PAPERS -->
     </div>
   </div>

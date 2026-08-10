@@ -107,10 +107,31 @@
     <div class="header">
       <div class="header-line"/>
       <div class="header-title">&#129302; AI Papers Today</div>
-      <div class="header-date"><!-- DATE -->August 09, 2026<!-- /DATE --></div>
+      <div class="header-date"><!-- DATE -->August 10, 2026<!-- /DATE --></div>
     </div>
     <div class="cards">
 <!-- PAPERS -->
+    <div class="card" style="animation-delay:0.1s, 0.1s;">
+      <div class="card-top">
+        <span class="badge badge-ai">cs.AI</span>
+        <span class="card-title">Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Lea...</span>
+      </div>
+      <div class="card-meta">arxiv.org &#183; August 10, 2026</div>
+    </div>
+    <div class="card" style="animation-delay:0.25s, 0.25s;">
+      <div class="card-top">
+        <span class="badge badge-ai">cs.AI</span>
+        <span class="card-title">EntropyMoE: Entropy-Aware Sparse Expert Routing for Tokenizer-Free LLMs</span>
+      </div>
+      <div class="card-meta">arxiv.org &#183; August 10, 2026</div>
+    </div>
+    <div class="card" style="animation-delay:0.4s, 0.4s;">
+      <div class="card-top">
+        <span class="badge badge-ai">cs.AI</span>
+        <span class="card-title">Beyond Routing Weights: Faithful Response-Level Interpretation of Mixture-of-Exper...</span>
+      </div>
+      <div class="card-meta">arxiv.org &#183; August 10, 2026</div>
+    </div>
 <!-- /PAPERS -->
     </div>
   </div>

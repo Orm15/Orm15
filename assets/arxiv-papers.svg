@@ -107,30 +107,30 @@
     <div class="header">
       <div class="header-line"/>
       <div class="header-title">&#129302; AI Papers Today</div>
-      <div class="header-date"><!-- DATE -->August 11, 2026<!-- /DATE --></div>
+      <div class="header-date"><!-- DATE -->August 12, 2026<!-- /DATE --></div>
     </div>
     <div class="cards">
 <!-- PAPERS -->
     <div class="card" style="animation-delay:0.1s, 0.1s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Towards an Argumentative Foundation for Evaluative AI</span>
+        <span class="card-title">Closed-Loop LLM Co-Pilots for Digital Agriculture</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; August 11, 2026</div>
+      <div class="card-meta">arxiv.org &#183; August 12, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.25s, 0.25s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains</span>
+        <span class="card-title">SPOTting the Future: Lookahead Explanations for Deep Reinforcement Learning</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; August 11, 2026</div>
+      <div class="card-meta">arxiv.org &#183; August 12, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.4s, 0.4s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Determinization in Structure Theories: A Unified Framework via Closure, Comparabil...</span>
+        <span class="card-title">MIDAS: Mutual Information Disentanglement with Uncertainty-Aware Fusion for Incomp...</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; August 11, 2026</div>
+      <div class="card-meta">arxiv.org &#183; August 12, 2026</div>
     </div>
 <!-- /PAPERS -->
     </div>

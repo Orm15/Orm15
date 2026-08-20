@@ -107,30 +107,30 @@
     <div class="header">
       <div class="header-line"/>
       <div class="header-title">&#129302; AI Papers Today</div>
-      <div class="header-date"><!-- DATE -->August 19, 2026<!-- /DATE --></div>
+      <div class="header-date"><!-- DATE -->August 20, 2026<!-- /DATE --></div>
     </div>
     <div class="cards">
 <!-- PAPERS -->
     <div class="card" style="animation-delay:0.1s, 0.1s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM A...</span>
+        <span class="card-title">Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirem...</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; August 19, 2026</div>
+      <div class="card-meta">arxiv.org &#183; August 20, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.25s, 0.25s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Runtime Governance for Agentic AI: Action-Boundary Control with Trusted Provenance...</span>
+        <span class="card-title">Position: Profiling Game Worlds by Transition Complexity</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; August 19, 2026</div>
+      <div class="card-meta">arxiv.org &#183; August 20, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.4s, 0.4s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">The Price of Thinking: Reasoning Effort as a Model-Specific API Contract</span>
+        <span class="card-title">Large Language Models in Mental Health: A Systematic Review of Applications, Innov...</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; August 19, 2026</div>
+      <div class="card-meta">arxiv.org &#183; August 20, 2026</div>
     </div>
 <!-- /PAPERS -->
     </div>

@@ -107,30 +107,30 @@
     <div class="header">
       <div class="header-line"/>
       <div class="header-title">&#129302; AI Papers Today</div>
-      <div class="header-date"><!-- DATE -->August 25, 2026<!-- /DATE --></div>
+      <div class="header-date"><!-- DATE -->August 26, 2026<!-- /DATE --></div>
     </div>
     <div class="cards">
 <!-- PAPERS -->
     <div class="card" style="animation-delay:0.1s, 0.1s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for...</span>
+        <span class="card-title">RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; August 25, 2026</div>
+      <div class="card-meta">arxiv.org &#183; August 26, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.25s, 0.25s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">AIREP: A Protocol for Per-Decision Evidence in AI Runtime Governance</span>
+        <span class="card-title">ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect ...</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; August 25, 2026</div>
+      <div class="card-meta">arxiv.org &#183; August 26, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.4s, 0.4s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Reviewing Model Collapse and Countermeasures</span>
+        <span class="card-title">LLM Agents Perform Controlled Experiments Using Simulation Models</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; August 25, 2026</div>
+      <div class="card-meta">arxiv.org &#183; August 26, 2026</div>
     </div>
 <!-- /PAPERS -->
     </div>

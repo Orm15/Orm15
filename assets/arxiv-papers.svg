@@ -107,30 +107,30 @@
     <div class="header">
       <div class="header-line"/>
       <div class="header-title">&#129302; AI Papers Today</div>
-      <div class="header-date"><!-- DATE -->September 11, 2026<!-- /DATE --></div>
+      <div class="header-date"><!-- DATE -->September 12, 2026<!-- /DATE --></div>
     </div>
     <div class="cards">
 <!-- PAPERS -->
     <div class="card" style="animation-delay:0.1s, 0.1s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows</span>
+        <span class="card-title">Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound...</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; September 11, 2026</div>
+      <div class="card-meta">arxiv.org &#183; September 12, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.25s, 0.25s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Adaptive Entangled Game Modules in Artificial General Intelligence</span>
+        <span class="card-title">Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generati...</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; September 11, 2026</div>
+      <div class="card-meta">arxiv.org &#183; September 12, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.4s, 0.4s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic T...</span>
+        <span class="card-title">A Multi-Stage Rule-Chaining Framework for Compositional and Interpretable Cognitiv...</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; September 11, 2026</div>
+      <div class="card-meta">arxiv.org &#183; September 12, 2026</div>
     </div>
 <!-- /PAPERS -->
     </div>

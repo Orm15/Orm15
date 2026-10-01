@@ -107,30 +107,30 @@
     <div class="header">
       <div class="header-line"/>
       <div class="header-title">&#129302; AI Papers Today</div>
-      <div class="header-date"><!-- DATE -->September 30, 2026<!-- /DATE --></div>
+      <div class="header-date"><!-- DATE -->October 01, 2026<!-- /DATE --></div>
     </div>
     <div class="cards">
 <!-- PAPERS -->
     <div class="card" style="animation-delay:0.1s, 0.1s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">OpenAI-HuggingFace: A Reproduction & Lessons for Alignment Testing</span>
+        <span class="card-title">Improving OCR Faithfulness via Gated and Attenuated On-Policy Distillation</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; September 30, 2026</div>
+      <div class="card-meta">arxiv.org &#183; October 01, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.25s, 0.25s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Neurosymbolic Routing for Reliable Reasoning on Resource-Constrained Edge Devices</span>
+        <span class="card-title">AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; September 30, 2026</div>
+      <div class="card-meta">arxiv.org &#183; October 01, 2026</div>
     </div>
     <div class="card" style="animation-delay:0.4s, 0.4s;">
       <div class="card-top">
         <span class="badge badge-ai">cs.AI</span>
-        <span class="card-title">Is Human-Readable Text Necessary for Effective LLM Fine-Tuning?</span>
+        <span class="card-title">MoFlow: Multi-Objective Agentic Workflow Generation</span>
       </div>
-      <div class="card-meta">arxiv.org &#183; September 30, 2026</div>
+      <div class="card-meta">arxiv.org &#183; October 01, 2026</div>
     </div>
 <!-- /PAPERS -->
     </div>

@@ -107,10 +107,31 @@
     <div class="header">
       <div class="header-line"/>
       <div class="header-title">&#129302; AI Papers Today</div>
-      <div class="header-date"><!-- DATE -->October 20, 2026<!-- /DATE --></div>
+      <div class="header-date"><!-- DATE -->October 21, 2026<!-- /DATE --></div>
     </div>
     <div class="cards">
 <!-- PAPERS -->
+    <div class="card" style="animation-delay:0.1s, 0.1s;">
+      <div class="card-top">
+        <span class="badge badge-ai">cs.AI</span>
+        <span class="card-title">Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizo...</span>
+      </div>
+      <div class="card-meta">arxiv.org &#183; October 21, 2026</div>
+    </div>
+    <div class="card" style="animation-delay:0.25s, 0.25s;">
+      <div class="card-top">
+        <span class="badge badge-ai">cs.AI</span>
+        <span class="card-title">Large language model and reinforcement learning based autonomous construction and ...</span>
+      </div>
+      <div class="card-meta">arxiv.org &#183; October 21, 2026</div>
+    </div>
+    <div class="card" style="animation-delay:0.4s, 0.4s;">
+      <div class="card-top">
+        <span class="badge badge-ai">cs.AI</span>
+        <span class="card-title">Pareto-Optimal RTL Code Generation via Multi-Objective Reinforcement Learning with...</span>
+      </div>
+      <div class="card-meta">arxiv.org &#183; October 21, 2026</div>
+    </div>
 <!-- /PAPERS -->
     </div>
   </div>

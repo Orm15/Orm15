@@ -107,10 +107,31 @@
     <div class="header">
       <div class="header-line"/>
       <div class="header-title">&#129302; AI Papers Today</div>
-      <div class="header-date"><!-- DATE -->November 25, 2026<!-- /DATE --></div>
+      <div class="header-date"><!-- DATE -->November 26, 2026<!-- /DATE --></div>
     </div>
     <div class="cards">
 <!-- PAPERS -->
+    <div class="card" style="animation-delay:0.1s, 0.1s;">
+      <div class="card-top">
+        <span class="badge badge-ai">cs.AI</span>
+        <span class="card-title">Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, St...</span>
+      </div>
+      <div class="card-meta">arxiv.org &#183; November 26, 2026</div>
+    </div>
+    <div class="card" style="animation-delay:0.25s, 0.25s;">
+      <div class="card-top">
+        <span class="badge badge-ai">cs.AI</span>
+        <span class="card-title">MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake</span>
+      </div>
+      <div class="card-meta">arxiv.org &#183; November 26, 2026</div>
+    </div>
+    <div class="card" style="animation-delay:0.4s, 0.4s;">
+      <div class="card-top">
+        <span class="badge badge-ai">cs.AI</span>
+        <span class="card-title">Conservative Overlap Fuzzy Rough Sets for Incomplete Data</span>
+      </div>
+      <div class="card-meta">arxiv.org &#183; November 26, 2026</div>
+    </div>
 <!-- /PAPERS -->
     </div>
   </div>
